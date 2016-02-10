@@ -3,3 +3,4 @@
 
 Integrated Angular Material on jspm branch. That's it!!
 
+![Alt text](/../screenshot/screenshot.png?raw=true "Screenshot")
