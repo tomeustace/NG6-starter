@@ -38,7 +38,7 @@ describe('Navbar', ()=>{
 		// test the template
 		// use Regexes to test that you are using the right bindings {{  }}
 		
-		it('should have name in template [REMOVE]', ()=>{
+		xit('should have name in template [REMOVE]', ()=>{
 			expect(NavbarTemplate).to.match(/{{\s?vm\.name\s?}}/g);
 		});
 	});

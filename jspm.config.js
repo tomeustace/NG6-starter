@@ -1,5 +1,5 @@
 System.config({
-  baseURL: "./",
+  baseURL: "/",
   defaultJSExtensions: true,
   transpiler: "babel",
   babelOptions: {
@@ -16,7 +16,7 @@ System.config({
     "angular": "github:angular/bower-angular@1.5.0",
     "angular-animate": "github:angular/bower-angular-animate@1.5.0",
     "angular-material": "npm:angular-material@1.0.5",
-    "angular-mocks": "npm:angular-mocks@1.4.0",
+    "angular-mocks": "github:angular/bower-angular-mocks@1.5.0",
     "angular-ui-router": "github:angular-ui/ui-router@0.2.15",
     "babel": "npm:babel-core@5.8.25",
     "babel-runtime": "npm:babel-runtime@5.8.25",
@@ -33,6 +33,9 @@ System.config({
       "angular": "github:angular/bower-angular@1.5.0"
     },
     "github:angular/bower-angular-aria@1.5.0": {
+      "angular": "github:angular/bower-angular@1.5.0"
+    },
+    "github:angular/bower-angular-mocks@1.5.0": {
       "angular": "github:angular/bower-angular@1.5.0"
     },
     "github:capaj/systemjs-hot-reloader@0.5.0": {

@@ -41,8 +41,8 @@ module.exports = function(config) {
     },
 
     proxies: {
-      // '/jspm_packages': '/base/jspm_packages',
-      // '/jspm.config.js': '/base/jspm.config.js'
+     '/client/app/': '/base/client/app/',
+     '/jspm_packages/': '/base/client/jspm_packages/'
     },
 
     // list of files to exclude
